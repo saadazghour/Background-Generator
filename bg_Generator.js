@@ -1,4 +1,8 @@
+var lodash = require('lodash');
 
+let array_of_numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+
+console.log(lodash.without(array_of_numbers, 3));
 
 var body = document.getElementById('gradient');
 // var input1 = document.getElementsByClassName("input1")[0];

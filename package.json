@@ -4,8 +4,12 @@
   "description": "",
   "main": "bg_Generator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify bg_Generator.js > bundle.js",
+    "server": "live-server"
   },
   "author": "Azghour-Saad",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
 }
